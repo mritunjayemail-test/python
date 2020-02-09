@@ -1,0 +1,16 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flask</title>
+  <meta name="description" content="Mritunjay site">
+  <meta name="author" content="SitePoint">
+</head>
+<body>
+  <h1>Hello World template</h1>
+  {% for post in posts %}
+     <p>{{post.name}}-{{post.age}}</p>
+  {% endfor %}
+</body>
+</html>
